@@ -1,0 +1,24 @@
+.card {
+    width: 200px;
+    height: 300px;
+    background: #fff;
+    border: 1px solid #159;
+    transition: .2s;
+    margin: 0 6px 12px;
+}
+
+.list-goods {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+img {
+    display: block;
+    width: 100%;
+    transition: .2s;
+}
+
+img.active {
+    transform: scale(1.2, 1.2);
+}
